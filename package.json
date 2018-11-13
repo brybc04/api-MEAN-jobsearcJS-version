@@ -1,0 +1,25 @@
+{
+  "name": "api-mycv",
+  "version": "1.0.0",
+  "description": "//Authenticate ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "^4.16.4",
+    "jsonwebtoken": "*",
+    "mongoose": "^5.3.6",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "bryan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
